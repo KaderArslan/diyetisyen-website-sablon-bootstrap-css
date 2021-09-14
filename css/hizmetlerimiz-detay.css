@@ -1,0 +1,104 @@
+/* header start */
+
+.backheader{
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/hizmetlerimiz-header.jpg");
+    min-height: 65vh;
+    width: 100% !important;
+}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+.backheader{
+    background-attachment: scroll;
+    width: 100% !important;
+}
+} 
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+.backheader {
+    background-image: url("../images/mobil-header.jpg");
+    width: 100% !important;
+}
+}
+
+/* header end */
+
+/* hizmetlerimiz start */
+.breadcrumb-item.active{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 700 !important;
+    font-style: bold !important;
+}
+.list-group-item.active{
+    background-color: #01937C !important;
+    border-bottom: 1px solid #dddbdb !important;
+    border-top: 1px solid #dddbdb !important;
+    border-left: 1px solid #01937C !important;
+    border-right: 1px solid #01937C !important;
+}
+.list-group-item{
+    background-color: #fff !important;
+    color: #111 !important;
+}
+.list-group-item.active > .text-white{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 700 !important;
+    font-style: bold !important;
+    color: #fff !important;
+}
+.list-group-item > .text-dark:hover{
+    color: #fff !important ;
+}
+.list-group-item:hover{
+    background-color: #01937C !important;
+    color: #fff !important;
+}
+
+.imageoverlay {
+    position: relative;
+    width: 100%;
+  }
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.imageoverlay:hover .image {
+    opacity: 0.6;
+}
+.imageoverlay:hover .middle {
+    opacity: 1;
+}
+.text {
+    background-color: #01937C;
+    color: white;
+    padding: 8px 8px;
+}
+/* hizmetlerim end */
+
+/* footer start */
+#footerbg{
+    background-image: url("../images/footer.png");
+	background-repeat: no-repeat;
+	/* background-attachment: fixed; */
+	height: 100%;
+    width:100%;
+    color: #111 !important;
+}
+/* footer end */

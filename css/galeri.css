@@ -1,0 +1,88 @@
+/* header start */
+
+.backheader{
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/galeri-header.jpg");
+    min-height: 65vh;
+    width: 100% !important;
+}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+.backheader{
+    background-attachment: scroll;
+    width: 100% !important;
+}
+} 
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+.backheader {
+    background-image: url("../images/mobil-header.jpg");
+    width: 100% !important;
+}
+}
+
+/* header end */
+
+/* galeri header start */
+.breadcrumb-item.active{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 700 !important;
+    font-style: bold !important;
+}
+.list-group-item.active{
+    background-color: #01937C !important;
+    border-bottom: 1px solid #dddbdb !important;
+    border-top: 1px solid #dddbdb !important;
+    border-left: 1px solid #01937C !important;
+    border-right: 1px solid #01937C !important;
+}
+.list-group-item{
+    background-color: #fff !important;
+    color: #111 !important;
+}
+.list-group-item.active > .text-white{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 700 !important;
+    font-style: bold !important;
+    color: #fff !important;
+}
+.list-group-item > .text-dark:hover{
+    color: #fff !important ;
+}
+.list-group-item:hover{
+    background-color: #01937C !important;
+    color: #fff !important;
+}
+/* galeri header end */
+
+/* galeri start */
+.image-shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.page-link:hover {
+    z-index: 2 !important;
+    background-color:#01937C !important;
+}
+/* .row>* {
+    padding-right: calc(var(--bs-gutter-x) * .5) !important;
+    padding-left: calc(var(--bs-gutter-x) * .5) !important;
+} */
+.prevnext:hover{
+    background-color: #006C53 !important;
+    color: #fff !important;
+}
+/* galeri end */
+
+/* footer start */
+#footerbg{
+    background-image: url("../images/footer.png");
+	background-repeat: no-repeat;
+	/* background-attachment: fixed; */
+	height: 100%;
+    width:100%;
+    color: #111 !important;
+}
+/* footer end */

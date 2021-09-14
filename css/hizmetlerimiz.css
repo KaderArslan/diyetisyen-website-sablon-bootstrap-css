@@ -1,0 +1,52 @@
+/* header start */
+
+.backheader{
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/hizmetlerimiz-header.jpg");
+    min-height: 65vh;
+    width: 100% !important;
+}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+.backheader{
+    background-attachment: scroll;
+    width: 100% !important;
+}
+} 
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+.backheader {
+    background-image: url("../images/mobil-header.jpg");
+    width: 100% !important;
+}
+}
+
+/* header end */
+
+/* hizmetlerimiz start */
+.breadcrumb-item.active{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 700 !important;
+    font-style: bold !important;
+}
+.card-shadow{
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+.detaycolor{
+    color: #01937C !important;
+}
+/* hizmetlerim end */
+
+/* footer start */
+#footerbg{
+    background-image: url("../images/footer.png");
+	background-repeat: no-repeat;
+	/* background-attachment: fixed; */
+	height: 100%;
+    width:100%;
+    color: #111 !important;
+}
+/* footer end */

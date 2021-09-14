@@ -1,0 +1,70 @@
+/* header start */
+
+.backheader{
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/basari-hikayeleri-header.jpg");
+    min-height: 65vh;
+    width: 100% !important;
+}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+.backheader{
+    background-attachment: scroll;
+    width: 100% !important;
+}
+} 
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+.backheader {
+    background-image: url("../images/mobil-header.jpg");
+    width: 100% !important;
+}
+}
+
+/* header end */
+
+/* başarı hikayeleri start */
+.breadcrumb-item.active{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 700 !important;
+    font-style: bold !important;
+}
+.list-group-item.active{
+    background-color: #01937C !important;
+    border-bottom: 1px solid #dddbdb !important;
+    border-top: 1px solid #dddbdb !important;
+    border-left: 1px solid #01937C !important;
+    border-right: 1px solid #01937C !important;
+}
+.list-group-item{
+    background-color: #fff !important;
+    color: #111 !important;
+}
+.list-group-item.active > .text-white{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 700 !important;
+    font-style: bold !important;
+    color: #fff !important;
+}
+.list-group-item > .text-dark:hover{
+    color: #fff !important ;
+}
+.list-group-item:hover{
+    background-color: #01937C !important;
+    color: #fff !important;
+}
+/* başarı hikayeleri end */
+
+/* footer start */
+#footerbg{
+    background-image: url("../images/footer.png");
+	background-repeat: no-repeat;
+	/* background-attachment: fixed; */
+	height: 100%;
+    width:100%;
+    color: #111 !important;
+}
+/* footer end */

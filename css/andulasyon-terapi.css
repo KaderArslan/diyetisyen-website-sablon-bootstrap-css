@@ -1,0 +1,95 @@
+/* header start */
+
+.backheader{
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/andulasyon-terapi-header.jpg");
+    min-height: 65vh;
+    width: 100% !important;
+}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+.backheader{
+    background-attachment: scroll;
+    width: 100% !important;
+}
+} 
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+.backheader {
+    background-image: url("../images/mobil-header.jpg");
+    width: 100% !important;
+}
+}
+
+/* header end */
+
+/* andulasyon terapi start */
+.breadcrumb-item.active{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 700 !important;
+    font-style: bold !important;
+}
+.accordionbackground{
+    background-color: #F1F1F1 !important;
+}
+.accordion-button{
+    color: #111 !important;
+    background-color: #F1F1F1 !important;
+}
+.accordion-button:hover{
+    color: #fff !important;
+    background-color: #01937C !important;
+}
+.accordion-button:not(.collapsed){
+    color: #fff !important;
+    background-color: #01937C !important;
+}
+.accordion-button:not(.collapsed)::after{
+   filter: grayscale(1) brightness(1);
+}
+.collapsed::after{
+    background-color: #fff !important;
+    border-radius: 100%;
+}
+button.accordion-button.accordionbackground.fw-bold::after{
+    background-color: #fff !important;
+    border-radius: 100%;
+}
+
+
+/* border left */
+#collapseOne{
+    border-left: 4px solid #01937C !important;
+}
+#collapseTwo{
+    border-left: 4px solid #01937C !important;
+}
+#collapseThree{
+    border-left: 4px solid #01937C !important;
+}
+#collapseFour{
+    border-left: 4px solid #01937C !important;
+}
+#collapseFive{
+    border-left: 4px solid #01937C !important;
+}
+#collapseSix{
+    border-left: 4px solid #01937C !important;
+}
+/* andulasyon terapi end */
+
+/* footer start */
+#footerbg{
+    background-image: url("../images/footer.png");
+	background-repeat: no-repeat;
+	/* background-attachment: fixed; */
+	height: 100%;
+    width:100%;
+    color: #111 !important;
+}
+/* footer end */
+
+

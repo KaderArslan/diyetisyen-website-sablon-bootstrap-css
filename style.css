@@ -1,0 +1,86 @@
+/* header start */
+.button-header{
+    color: #FEFEFE !important;
+	border-color: #01937C;
+	border: 2px solid #01937C;
+    background-color: #01937C;
+	transition: 900ms background-color;
+    width: 100% !important;
+}
+.headerimagetext {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 35% !important;
+    left: 9% !important;
+  }  
+/* header end */
+
+/* hakkımda daha fazla start */
+.button-hakkimda{
+    color: #FEFEFE !important;
+	border-color: #01937C;
+	border: 2px solid #01937C;
+    background-color: #01937C;
+	transition: 900ms background-color;
+    width:100% !important;
+}
+/* hakkımda daha fazla end */
+
+
+/* online diyet start  */
+.mt-onlinediyet{
+    margin-top: 5vw !important;
+}
+#onlinediyetbg{
+    background-image: url("./images/mehtap-erciyes-online-diyet.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+/* online diyet end */
+
+/* blog image start */
+.card-shadow{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
+}
+.imagetransparenttext .transparenttext {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+.button-blog{
+    color: #FEFEFE !important;
+	border-color: #01937C;
+	border: 2px solid #01937C;
+    background-color: #01937C;
+	transition: 900ms background-color;
+    width: 50% !important;
+}
+.button-blog2{
+    color: #FEFEFE !important;
+	border-color: #01937C;
+	border: 2px solid #01937C;
+    background-color: #01937C;
+	transition: 900ms background-color;
+    width: 100% !important;
+}
+/* blog image end */
+
+/* footer start */
+#footerbg{
+    background-image: url("./images/footer.png");
+	background-repeat: no-repeat;
+	/* background-attachment: fixed; */
+	height: 100%;
+    width:100%;
+    color: #111 !important;
+}
+/* footer end */
